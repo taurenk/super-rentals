@@ -11,7 +11,6 @@
     "test": "tests"
   },
   "scripts": {
-    "postinstall": "npm install",
     "build": "ember build --production",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
