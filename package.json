@@ -11,7 +11,8 @@
     "test": "tests"
   },
   "scripts": {
-    "build:production": "ember build --production",
+    "postinstall": "npm install",
+    "build": "ember build --production",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve --port \"$PORT\"",
