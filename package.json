@@ -10,6 +10,9 @@
     "doc": "doc",
     "test": "tests"
   },
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "scripts": {
     "build": "ember build --production",
     "lint:hbs": "ember-template-lint .",
